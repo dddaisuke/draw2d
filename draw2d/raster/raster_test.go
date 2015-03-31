@@ -2,8 +2,8 @@ package raster
 
 import (
 	"bufio"
-	"code.google.com/p/draw2d/draw2d/curve"
-	"code.google.com/p/freetype-go/freetype/raster"
+	"github.com/dddaisuke/draw2d/draw2d/curve"
+	"github.com/dddaisuke/freetype-go/freetype/raster"
 	"image"
 	"image/color"
 	"image/png"

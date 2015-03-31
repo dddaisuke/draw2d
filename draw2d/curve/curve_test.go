@@ -2,8 +2,8 @@ package curve
 
 import (
 	"bufio"
-	"code.google.com/p/draw2d/draw2d/raster"
 	"fmt"
+	"github.com/dddaisuke/draw2d/draw2d/raster"
 	"image"
 	"image/color"
 	"image/draw"

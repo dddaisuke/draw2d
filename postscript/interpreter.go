@@ -4,7 +4,7 @@
 package postscript
 
 import (
-	"code.google.com/p/draw2d/draw2d"
+	"github.com/dddaisuke/draw2d/draw2d"
 	"io"
 	"log"
 	"os"
@@ -44,7 +44,7 @@ func NewDictionary(prealloc int) Dictionary {
 	return make(Dictionary, prealloc)
 }
 
-func (interpreter *Interpreter) SetGraphicContext(gc draw2d.GraphicContext)  {
+func (interpreter *Interpreter) SetGraphicContext(gc draw2d.GraphicContext) {
 	interpreter.gc = gc
 }
 
